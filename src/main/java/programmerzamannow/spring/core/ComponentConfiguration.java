@@ -5,6 +5,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan(basePackages = {
+        "programmerzamannow.spring.core.repository",
         "programmerzamannow.spring.core.service"
 })
 public class ComponentConfiguration {
